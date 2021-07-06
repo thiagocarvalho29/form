@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+body {
+    border: 5px green solid;
+    width: 500px;
+    height: auto;
+    background-color: black;
+    position: absolute;
+    margin-left: 37.5%;
+}
+
+button {
+    color: white;
+    background-color: grey;
+    border: gold 3px solid;
+    border-radius: 5px;
+    width: 80px;
+    height: 45px;
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover {
+    color: grey;
+    background-color: white;
+    border: purple 3px solid;
+    width: 100px;
+    height: 55px;
+    font-size: 15px;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+label {
+    white-space: pre-wrap;
+    color: red;
+    font-size: 20px;
+}
+
+div {
+    white-space: nowrap;
+    margin-left: 50px;
+}
+
+input {
+    cursor: pointer;
+    background-color: gold;
+    border: green 3px solid;
+}
+
+input:hover {
+    background-color: white;
+    border: #0035F0 3px solid;
+}
